@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #f3afe7, #4c40ed);
+}
+
+body {
+  margin: 8px auto;
+  text-align: center;
+  align-items: center;
+  overflow: scroll;
+  background-image: linear-gradient(to bottom right, #f3afe7, #4c40ed);
+  color: white;
+}
+
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  font-family: 'Fascinate', cursive;
+  font-size: 90px;
+  text-shadow: 12px 8px 2px rgba(13, 13, 13, 0.6);
+}
+h2 {
+  font-size: 40px;
+  margin-block-start: 0.6em;
+  margin-block-end: 0.3em;
+}
+
+h3 {
+  font-size: large;
+  padding: 1px 0px 3px 0px;
+  color: yellow;
+}
+input {
+  margin-left: 60px;
+}
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #f7f4f5;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'JetBrains Mono', monospace;
+  height: 24px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  margin-right: 60px;
+  margin-left: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 15px;
+}
+
+button:focus {
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-1px);
+}
+
+button:active {
+  box-shadow: #d6d6e7 0 2px 7px inset;
+  transform: translateY(1px);
+}
+
+.search-bar {
+  background-image: linear-gradient(to bottom right, #bb3985, #ec5971);
+  width: 800px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 10px 6px 3px rgba(13, 13, 13, 0.5);
+  padding: 10px;
+  margin: 15px;
+}
+
+.item {
+  display: flex;
+}
+input,
+select {
+  height: 22px;
+  border: none;
+  border-radius: 4px;
+}
+.case {
+  width: 800px;
+  border-radius: 3px;
+
+  box-shadow: 0px 3px 16px rgba(24, 23, 23, 0.5);
+  background-color: rgba(238, 236, 239, 0.3);
+}
