@@ -50,7 +50,7 @@ function App() {
     if (text.length > 0) {
       translate()
     }
-  }, [rating])
+  }, [])
 
   window.onscroll = function () {
     const scrollHeight = Math.max(
